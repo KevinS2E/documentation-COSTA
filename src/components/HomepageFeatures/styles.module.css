@@ -1,0 +1,81 @@
+.section {
+  padding: 3rem 0 4rem;
+}
+
+.sectionHeader {
+  max-width: 760px;
+  margin: 0 auto 1.75rem;
+  text-align: center;
+}
+
+.sectionKicker {
+  display: inline-flex;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(39, 93, 130, 0.12);
+  color: var(--guide-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.sectionIntro {
+  margin: 0.85rem auto 0;
+  max-width: 62ch;
+  color: var(--ifm-font-color-secondary);
+  font-size: 1.03rem;
+  line-height: 1.7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  min-height: 100%;
+  padding: 1.25rem;
+  border: 1px solid var(--guide-border);
+  border-radius: 1rem;
+  background:
+    linear-gradient(135deg, rgba(39, 93, 130, 0.07), rgba(15, 118, 110, 0.03)),
+    var(--ifm-background-surface-color);
+  box-shadow: var(--guide-soft-shadow);
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.cardDescription {
+  margin: 0;
+  color: var(--ifm-font-color-secondary);
+  line-height: 1.7;
+}
+
+.cardButton {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+@media (max-width: 996px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 2.25rem 0 3rem;
+  }
+}
