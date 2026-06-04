@@ -4,6 +4,14 @@ import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 const guideCards = [
+   {
+    title: 'Guía de soporte TI',
+    description:
+      'Resumen general para saber cuándo usar estas instrucciones y cuándo escalar a soporte.',
+    to: '/docs/intro',
+    label: 'Ver introducción',
+  },
+  
   {
     title: 'Reinicio del docking station',
     description:
@@ -17,14 +25,7 @@ const guideCards = [
       'Instrucciones claras para restablecer la laptop y volver a trabajar con el docking.',
     to: '/docs/laptop/reinicio-laptop',
     label: 'Abrir guía',
-  },
-  {
-    title: 'Guía de soporte TI',
-    description:
-      'Resumen general para saber cuándo usar estas instrucciones y cuándo escalar a soporte.',
-    to: '/docs/intro',
-    label: 'Ver introducción',
-  },
+  }
 ];
 
 function GuideCard({title, description, to, label}) {
