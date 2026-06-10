@@ -1,0 +1,110 @@
+{
+  "home.description": {
+    "message": "IT guide for solving problems after power outages.",
+    "description": "Homepage meta description"
+  },
+  "home.kicker": {
+    "message": "Internal IT guide · support for end users",
+    "description": "Homepage kicker text"
+  },
+  "home.title": {
+    "message": "IT Support Guide",
+    "description": "Homepage hero title"
+  },
+  "home.summary": {
+    "message": "Simple instructions to help company users resolve issues after power outages, without needing technical knowledge.",
+    "description": "Homepage hero summary"
+  },
+  "home.pill.docking": {
+    "message": "Docking station",
+    "description": "Homepage hero pill for docking"
+  },
+  "home.pill.laptop": {
+    "message": "Laptop",
+    "description": "Homepage hero pill for laptop"
+  },
+  "home.pill.devices": {
+    "message": "Monitors, USB and network",
+    "description": "Homepage hero pill for devices"
+  },
+  "home.primaryCta": {
+    "message": "Get started",
+    "description": "Homepage primary call to action"
+  },
+  "home.secondaryCta": {
+    "message": "View docking",
+    "description": "Homepage secondary call to action"
+  },
+  "home.cards.whatItSolves.title": {
+    "message": "What it solves",
+    "description": "Homepage card title"
+  },
+  "home.cards.whatItSolves.body": {
+    "message": "Power, connectivity, and device response issues after a power outage.",
+    "description": "Homepage card description"
+  },
+  "home.cards.howToUse.title": {
+    "message": "How to use it",
+    "description": "Homepage card title"
+  },
+  "home.cards.howToUse.body": {
+    "message": "First the docking station, then the laptop, and finally IT support if the issue continues.",
+    "description": "Homepage card description"
+  },
+  "home.cards.whoItsFor.title": {
+    "message": "Who it's for",
+    "description": "Homepage card title"
+  },
+  "home.cards.whoItsFor.body": {
+    "message": "Non-technical users who need a clear, fast, and safe guide.",
+    "description": "Homepage card description"
+  },
+  "homepageFeatures.kicker": {
+    "message": "Quick access",
+    "description": "Homepage features kicker"
+  },
+  "homepageFeatures.title": {
+    "message": "The essentials for fixing issues after a power outage",
+    "description": "Homepage features title"
+  },
+  "homepageFeatures.intro": {
+    "message": "This documentation is designed so that any user can follow it without technical knowledge.",
+    "description": "Homepage features intro"
+  },
+  "homepageFeatures.guideCards.intro.title": {
+    "message": "IT support guide",
+    "description": "Homepage feature card title"
+  },
+  "homepageFeatures.guideCards.intro.description": {
+    "message": "Overview of when to use these instructions and when to escalate to support.",
+    "description": "Homepage feature card description"
+  },
+  "homepageFeatures.guideCards.intro.label": {
+    "message": "View introduction",
+    "description": "Homepage feature card button label"
+  },
+  "homepageFeatures.guideCards.docking.title": {
+    "message": "Docking station restart",
+    "description": "Homepage feature card title"
+  },
+  "homepageFeatures.guideCards.docking.description": {
+    "message": "Simple steps to restore monitors, USB, and network after a power outage.",
+    "description": "Homepage feature card description"
+  },
+  "homepageFeatures.guideCards.docking.label": {
+    "message": "Open guide",
+    "description": "Homepage feature card button label"
+  },
+  "homepageFeatures.guideCards.laptop.title": {
+    "message": "Laptop restart",
+    "description": "Homepage feature card title"
+  },
+  "homepageFeatures.guideCards.laptop.description": {
+    "message": "Clear instructions to reset the laptop and get back to work with the docking station.",
+    "description": "Homepage feature card description"
+  },
+  "homepageFeatures.guideCards.laptop.label": {
+    "message": "Open guide",
+    "description": "Homepage feature card button label"
+  }
+}

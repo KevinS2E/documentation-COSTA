@@ -33,8 +33,16 @@ const config = {
   onBrokenLinks: 'throw',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es', 'en'],
+    localeConfigs: {
+      es: {
+        label: 'Español',
+      },
+      en: {
+        label: 'English',
+      },
+    },
   },
 
   presets: [
@@ -85,6 +93,10 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Guías',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             href: 'https://github.com/facebook/docusaurus',
