@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Guía TI',
   tagline: 'Guías internas claras para usuarios no técnicos',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/strandlogo.png',
 
   future: {
     v4: {
@@ -84,8 +84,8 @@ const config = {
       navbar: {
         title: 'Guía TI',
         logo: {
-          alt: 'Guía TI Logo',
-          src: 'img/logo.svg',
+          alt: 'Strand Logo',
+          src: 'img/strandlogo.png',
         },
         items: [
           {
