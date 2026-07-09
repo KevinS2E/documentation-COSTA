@@ -43,13 +43,13 @@ export default function Home() {
               <span className="guide-pill">
                 {translate({
                   id: 'home.pill.docking',
-                  message: 'Docking station',
+                  message: 'Guia de reinicio de Docking station',
                 })}
               </span>
               <span className="guide-pill">
                 {translate({
                   id: 'home.pill.laptop',
-                  message: 'Laptop',
+                  message: 'Guia de reinicio de Laptop',
                 })}
               </span>
               <span className="guide-pill">
@@ -70,7 +70,7 @@ export default function Home() {
               <Link className="button button--secondary button--lg" to="/docs/docking/reinicio-docking">
                 {translate({
                   id: 'home.secondaryCta',
-                  message: 'Ver docking',
+                  message: 'Ver Guia de reinicio de docking',
                 })}
               </Link>
             </div>
