@@ -70,7 +70,7 @@ export default function Home() {
               <Link className="button button--secondary button--lg" to="/docs/docking/reinicio-docking">
                 {translate({
                   id: 'home.secondaryCta',
-                  message: 'Ver Guia de reinicio de docking',
+                  message: 'Ver guía de reinicio de docking',
                 })}
               </Link>
             </div>
