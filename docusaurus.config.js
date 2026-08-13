@@ -95,6 +95,12 @@ const config = {
             label: 'Guías',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'seguridadSidebar',
+            position: 'left',
+            label: 'Seguridad',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },

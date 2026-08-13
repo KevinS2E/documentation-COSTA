@@ -1,1 +1,14 @@
-{}
+{
+  "sidebar.seguridadSidebar.category.Seguridad": {
+    "message": "Security",
+    "description": "The label for category Seguridad in sidebar seguridadSidebar"
+  },
+  "sidebar.seguridadSidebar.category.Seguridad.link.generated-index.title": {
+    "message": "Security",
+    "description": "The generated-index page title for category Seguridad in sidebar seguridadSidebar"
+  },
+  "sidebar.seguridadSidebar.category.Seguridad.link.generated-index.description": {
+    "message": "Security guides: how to spot phishing and other secure-access topics.",
+    "description": "The generated-index page description for category Seguridad in sidebar seguridadSidebar"
+  }
+}

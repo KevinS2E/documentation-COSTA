@@ -1,6 +1,6 @@
 {
   "home.description": {
-    "message": "IT guide for solving problems after power outages.",
+    "message": "Internal IT guides, simple and direct, for non-technical users.",
     "description": "Homepage meta description"
   },
   "home.kicker": {
@@ -12,27 +12,23 @@
     "description": "Homepage hero title"
   },
   "home.summary": {
-    "message": "Simple instructions to help company users resolve issues after power outages, without needing technical knowledge.",
+    "message": "Simple, direct instructions so any company user can resolve common IT problems, without needing technical knowledge.",
     "description": "Homepage hero summary"
   },
-  "home.pill.docking": {
-    "message": "View Docking station reset guide",
-    "description": "Homepage hero pill for docking"
+  "home.pill.apagones": {
+    "message": "Recovery after power outages",
+    "description": "Homepage hero pill for power outage recovery"
   },
-  "home.pill.laptop": {
-    "message": "View Laptop reset guide",
-    "description": "Homepage hero pill for laptop"
-  },
-  "home.pill.devices": {
-    "message": "Monitors, USB and network",
-    "description": "Homepage hero pill for devices"
+  "home.pill.seguridad": {
+    "message": "Security and accounts",
+    "description": "Homepage hero pill for security"
   },
   "home.primaryCta": {
     "message": "Get started",
     "description": "Homepage primary call to action"
   },
   "home.secondaryCta": {
-    "message": "View docking",
+    "message": "View security guide",
     "description": "Homepage secondary call to action"
   },
   "home.cards.whatItSolves.title": {
@@ -40,7 +36,7 @@
     "description": "Homepage card title"
   },
   "home.cards.whatItSolves.body": {
-    "message": "Power, connectivity, and device response issues after a power outage.",
+    "message": "Common connectivity, power, and secure account access issues.",
     "description": "Homepage card description"
   },
   "home.cards.howToUse.title": {
@@ -48,7 +44,7 @@
     "description": "Homepage card title"
   },
   "home.cards.howToUse.body": {
-    "message": "First the docking station, then the laptop, and finally IT support if the issue continues.",
+    "message": "Pick the category that matches your problem and follow the numbered steps; contact IT if it continues.",
     "description": "Homepage card description"
   },
   "home.cards.whoItsFor.title": {
@@ -64,47 +60,35 @@
     "description": "Homepage features kicker"
   },
   "homepageFeatures.title": {
-    "message": "The essentials for fixing issues after a power outage",
+    "message": "Find the guide you need, by category",
     "description": "Homepage features title"
   },
   "homepageFeatures.intro": {
     "message": "This documentation is designed so that any user can follow it without technical knowledge.",
     "description": "Homepage features intro"
   },
-  "homepageFeatures.guideCards.intro.title": {
-    "message": "IT support guide",
+  "homepageFeatures.guideCards.apagones.title": {
+    "message": "Recovery after power outages",
     "description": "Homepage feature card title"
   },
-  "homepageFeatures.guideCards.intro.description": {
-    "message": "Overview of when to use these instructions and when to escalate to support.",
+  "homepageFeatures.guideCards.apagones.description": {
+    "message": "Simple steps to recover the docking station, laptop, monitors, USB, and network after a power outage.",
     "description": "Homepage feature card description"
   },
-  "homepageFeatures.guideCards.intro.label": {
-    "message": "View introduction",
+  "homepageFeatures.guideCards.apagones.label": {
+    "message": "View guides",
     "description": "Homepage feature card button label"
   },
-  "homepageFeatures.guideCards.docking.title": {
-    "message": "Docking station restart",
+  "homepageFeatures.guideCards.seguridad.title": {
+    "message": "Security and accounts",
     "description": "Homepage feature card title"
   },
-  "homepageFeatures.guideCards.docking.description": {
-    "message": "Simple steps to restore monitors, USB, and network after a power outage.",
+  "homepageFeatures.guideCards.seguridad.description": {
+    "message": "How to spot phishing emails and report them to keep secure access to your accounts.",
     "description": "Homepage feature card description"
   },
-  "homepageFeatures.guideCards.docking.label": {
-    "message": "Open guide",
-    "description": "Homepage feature card button label"
-  },
-  "homepageFeatures.guideCards.laptop.title": {
-    "message": "Laptop restart",
-    "description": "Homepage feature card title"
-  },
-  "homepageFeatures.guideCards.laptop.description": {
-    "message": "Clear instructions to reset the laptop and get back to work with the docking station.",
-    "description": "Homepage feature card description"
-  },
-  "homepageFeatures.guideCards.laptop.label": {
-    "message": "Open guide",
+  "homepageFeatures.guideCards.seguridad.label": {
+    "message": "View guides",
     "description": "Homepage feature card button label"
   }
 }

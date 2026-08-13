@@ -14,7 +14,7 @@ export default function Home() {
       description={translate({
         id: 'home.description',
         message:
-          'Guía interna de TI para resolver problemas después de apagones eléctricos.',
+          'Guías internas de TI, simples y directas, para usuarios sin conocimientos técnicos.',
       })}>
       <main>
         <div className="container" style={{paddingTop: '2rem', paddingBottom: '1rem'}}>
@@ -35,27 +35,21 @@ export default function Home() {
               {translate({
                 id: 'home.summary',
                 message:
-                  'Instrucciones simples para ayudar a los usuarios de la empresa a resolver fallas después de apagones eléctricos, sin necesidad de conocimientos técnicos.',
+                  'Instrucciones simples y directas para que cualquier usuario de la empresa resuelva problemas de TI frecuentes, sin necesidad de conocimientos técnicos.',
               })}
             </p>
 
             <div className="guide-meta">
               <span className="guide-pill">
                 {translate({
-                  id: 'home.pill.docking',
-                  message: 'Guia de reinicio de Docking station',
+                  id: 'home.pill.apagones',
+                  message: 'Recuperación después de apagones',
                 })}
               </span>
               <span className="guide-pill">
                 {translate({
-                  id: 'home.pill.laptop',
-                  message: 'Guia de reinicio de Laptop',
-                })}
-              </span>
-              <span className="guide-pill">
-                {translate({
-                  id: 'home.pill.devices',
-                  message: 'Monitores, USB y red',
+                  id: 'home.pill.seguridad',
+                  message: 'Seguridad y cuentas',
                 })}
               </span>
             </div>
@@ -67,10 +61,10 @@ export default function Home() {
                   message: 'Empezar aquí',
                 })}
               </Link>
-              <Link className="button button--secondary button--lg" to="/docs/docking/reinicio-docking">
+              <Link className="button button--secondary button--lg" to="/docs/seguridad">
                 {translate({
                   id: 'home.secondaryCta',
-                  message: 'Ver guía de reinicio de docking',
+                  message: 'Ver guía de seguridad',
                 })}
               </Link>
             </div>
@@ -88,7 +82,7 @@ export default function Home() {
                 {translate({
                   id: 'home.cards.whatItSolves.body',
                   message:
-                    'Problemas de energía, conexión y respuesta del equipo después de un apagón.',
+                    'Problemas frecuentes de conexión, energía y acceso seguro a tus cuentas de trabajo.',
                 })}
               </p>
             </div>
@@ -103,7 +97,7 @@ export default function Home() {
                 {translate({
                   id: 'home.cards.howToUse.body',
                   message:
-                    'Primero el docking station, luego la laptop y finalmente soporte TI si sigue el fallo.',
+                    'Elegí la categoría según tu problema y seguí los pasos numerados; si el problema continúa, contactá a TI.',
                 })}
               </p>
             </div>

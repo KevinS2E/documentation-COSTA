@@ -12,9 +12,10 @@
   display: inline-flex;
   margin-bottom: 0.75rem;
   padding: 0.35rem 0.7rem;
+  border: 1px solid var(--ifm-color-primary);
   border-radius: 999px;
-  background: rgba(39, 93, 130, 0.12);
-  color: var(--guide-accent);
+  background: rgba(214, 0, 0, 0.08);
+  color: var(--ifm-font-color-base);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -47,11 +48,15 @@
   min-height: 100%;
   padding: 1.25rem;
   border: 1px solid var(--guide-border);
-  border-radius: 1rem;
-  background:
-    linear-gradient(135deg, rgba(39, 93, 130, 0.07), rgba(15, 118, 110, 0.03)),
-    var(--ifm-background-surface-color);
-  box-shadow: var(--guide-soft-shadow);
+  border-radius: 0.6rem;
+  background: var(--ifm-background-surface-color);
+  transition: border-color 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--guide-hover-shadow);
 }
 
 .cardTitle {

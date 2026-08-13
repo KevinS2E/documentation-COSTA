@@ -8,50 +8,34 @@ function getGuideCards() {
   return [
     {
       title: translate({
-        id: 'homepageFeatures.guideCards.intro.title',
-        message: 'Guía de soporte TI',
+        id: 'homepageFeatures.guideCards.apagones.title',
+        message: 'Recuperación después de apagones',
       }),
       description: translate({
-        id: 'homepageFeatures.guideCards.intro.description',
+        id: 'homepageFeatures.guideCards.apagones.description',
         message:
-          'Resumen general para saber cuándo usar estas instrucciones y cuándo escalar a soporte.',
+          'Pasos simples para recuperar el docking station, la laptop, monitores, USB y red después de un apagón eléctrico.',
       }),
       to: '/docs/intro',
       label: translate({
-        id: 'homepageFeatures.guideCards.intro.label',
-        message: 'Ver introducción',
+        id: 'homepageFeatures.guideCards.apagones.label',
+        message: 'Ver guías',
       }),
     },
     {
       title: translate({
-        id: 'homepageFeatures.guideCards.docking.title',
-        message: 'Reinicio del docking station',
+        id: 'homepageFeatures.guideCards.seguridad.title',
+        message: 'Seguridad y cuentas',
       }),
       description: translate({
-        id: 'homepageFeatures.guideCards.docking.description',
+        id: 'homepageFeatures.guideCards.seguridad.description',
         message:
-          'Pasos simples para recuperar monitores, USB y red después de un apagón eléctrico.',
+          'Cómo reconocer correos de phishing y reportarlos para mantener el acceso a tus cuentas de forma segura.',
       }),
-      to: '/docs/docking/reinicio-docking',
+      to: '/docs/seguridad',
       label: translate({
-        id: 'homepageFeatures.guideCards.docking.label',
-        message: 'Abrir guía',
-      }),
-    },
-    {
-      title: translate({
-        id: 'homepageFeatures.guideCards.laptop.title',
-        message: 'Reinicio de la laptop',
-      }),
-      description: translate({
-        id: 'homepageFeatures.guideCards.laptop.description',
-        message:
-          'Instrucciones claras para restablecer la laptop y volver a trabajar con el docking.',
-      }),
-      to: '/docs/laptop/reinicio-laptop',
-      label: translate({
-        id: 'homepageFeatures.guideCards.laptop.label',
-        message: 'Abrir guía',
+        id: 'homepageFeatures.guideCards.seguridad.label',
+        message: 'Ver guías',
       }),
     },
   ];
@@ -87,7 +71,7 @@ export default function HomepageFeatures() {
           <Heading as="h2" className={styles.sectionTitle}>
             {translate({
               id: 'homepageFeatures.title',
-              message: 'Lo esencial para resolver fallas después de un apagón',
+              message: 'Encontrá la guía que necesitás, por categoría',
             })}
           </Heading>
           <p className={styles.sectionIntro}>
