@@ -1,6 +1,7 @@
 ---
 title: Reconocer phishing
 description: Guía práctica para identificar correos sospechosos y reportarlos con seguridad.
+sidebar_position: 1
 ---
 
 # 🎣 Reconocer phishing
@@ -123,3 +124,7 @@ Si tienes dudas sobre un correo, es preferible reportarlo. El equipo de segurida
 :::warning
 Nunca interactúes con enlaces, archivos adjuntos o solicitudes de credenciales antes de reportar el mensaje.
 :::
+
+## Practica lo aprendido
+
+¿Listo para poner a prueba tu ojo? Practica con los [ejercicios interactivos de phishing](./ejercicios-phishing), donde deberás identificar si varios correos son phishing o legítimos.

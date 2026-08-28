@@ -1,0 +1,140 @@
+.quiz {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.progress {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 0.85rem;
+  font-weight: 600;
+}
+
+.email {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--ifm-background-color);
+}
+
+.emailRow {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.92rem;
+}
+
+.label {
+  color: var(--ifm-color-emphasis-600);
+  min-width: 58px;
+  font-weight: 600;
+}
+
+.mono {
+  font-family: var(--ifm-font-family-monospace);
+  word-break: break-all;
+}
+
+.subject {
+  font-weight: 700;
+}
+
+.emailBody {
+  padding: 1rem 0.9rem;
+  line-height: 1.6;
+  color: var(--ifm-font-color-base);
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.btnPhishing,
+.btnLegit,
+.btnPrimary {
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.12s ease, filter 0.12s ease;
+  color: #fff;
+}
+
+.btnPhishing:hover,
+.btnLegit:hover,
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+.btnPhishing {
+  background: #d9534f;
+  flex: 1 1 160px;
+}
+
+.btnLegit {
+  background: #2e8b57;
+  flex: 1 1 160px;
+}
+
+.btnPrimary {
+  background: var(--ifm-color-primary);
+  margin-top: 0.9rem;
+}
+
+.feedback {
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.feedback ul {
+  margin: 0.6rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.feedback li {
+  margin: 0.25rem 0;
+  line-height: 1.5;
+}
+
+.feedbackTitle {
+  font-weight: 700;
+  font-size: 1.02rem;
+}
+
+.correct {
+  background: rgba(46, 139, 87, 0.12);
+  border-color: rgba(46, 139, 87, 0.5);
+}
+
+.incorrect {
+  background: rgba(217, 83, 79, 0.12);
+  border-color: rgba(217, 83, 79, 0.5);
+}
+
+.result {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.resultScore {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--ifm-color-primary);
+}
+
+.resultMsg {
+  font-size: 1.05rem;
+  margin: 0.5rem 0 1rem;
+}
